@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: My_new_plugin
+Bundle-SymbolicName: my_new_plugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: my_new_plugin.Activator
+Require-Bundle: org.eclipse.ui,
+  org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: my_new_plugin
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ com.mysql.jdbc_5.1.5.jar,
+ mysql-connector-java-8.0.13.jar
